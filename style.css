@@ -1,0 +1,24 @@
+body {
+  /* Set background image */
+  background-image: url('IMAG0253.jpg');
+  /* Adjust background properties */
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the image */
+  /* Optional: Add a background color in case the image is not fully loaded */
+  background-color: #cccccc; /* Light gray as fallback */
+  /* Ensure content takes full height of viewport */
+  min-height: 100vh;
+  /* Optional: Center align content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Optional: Fix background image when scrolling */
+  background-attachment: fixed;
+}
+
+/* Additional styles for your content */
+.content {
+  /* Example styles */
+  text-align: center;
+  color: #ffffff; /* White text */
+}
